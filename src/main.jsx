@@ -6,7 +6,7 @@ import TodoFr from './components/TodoFr.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-   <React.StrictMode>
+   <React.StrictMode basename="/Todoreact/">
      <App />
    </React.StrictMode>,
 )
